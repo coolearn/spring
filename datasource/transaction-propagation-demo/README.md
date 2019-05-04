@@ -7,8 +7,8 @@ PROPAGATION_REQUIRED
 | PROPAGATION_MANDATORY      |    2 | 当前⼀定要有事务，不然就抛异常  |
 | PROPAGATION_REQUIRES_NEW      |    3 | ⽆论是否有事务，都起个新的事务  |
 | PROPAGATION_NOT_SUPPORTED      |    4 | 不支持事务，按非事务⽅式运行  |
-| PROPAGATION_NEVER      |    5 | 不支持事务，如果有事务则抛异常  
-| PROPAGATION_NESTED      |    6 | 当前有事务就在当前事务⾥再起⼀一个事务  
+| PROPAGATION_NEVER      |    5 | 不支持事务，如果有事务则抛异常   |
+| PROPAGATION_NESTED      |    6 | 当前有事务就在当前事务⾥再起⼀一个事务   |
 
 ## 事务隔离特性
 | 隔离性      |    值 | 脏读  | 不可重复读| 幻读 |
