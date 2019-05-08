@@ -18,7 +18,7 @@ import static org.springframework.data.domain.ExampleMatcher.GenericPropertyMatc
 
 @Slf4j
 @Service
-@CacheConfig(cacheNames = "coffee")
+@CacheConfig(cacheNames = "coffee") //使用的名字
 public class CoffeeService {
     @Autowired
     private CoffeeRepository coffeeRepository;
